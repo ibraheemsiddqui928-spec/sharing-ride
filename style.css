@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+:root {
+    --primary-green: #75bf7a;
+    --dark-text: #333;
+    --light-bg: #f9f9f9;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    padding: 20px 0;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-green);
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: var(--dark-text);
+}
+.btn-green {
+    background: var(--primary-green);
+    color: white !important;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+    gap: 40px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.btn-black {
+    background: #000;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.download-bar {
+    background: var(--primary-green);
+    color: white;
+    padding: 30px 0;
+    margin: 40px 0;
+}
+.bar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.download-bar input {
+    padding: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 4p 0 0 4px;
+}
+.download-bar button {
+    padding: 10px 20px;
+    background: #1a1a1a;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+}
+.how-it-works {
+    text-align: center;
+    padding: 60px 0;
+}
+.how-it-works h2 span {
+    color: var(--primary-green);
+}
+.works-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin-top: 50px;
+}
+.num {
+    width: 40px;
+    height: 40px;
+    border: 2px solid var(--primary-green);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+    color: var(--primary-green);
+    font-weight: bold;
+}
+.benefit-card {
+    display: flex;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.count {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-green);
+    opacity: 0.3;
+}
